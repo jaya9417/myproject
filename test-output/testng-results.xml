@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Google Suite" duration-ms="27984" started-at="2022-09-15T04:07:03Z" finished-at="2022-09-15T04:07:31Z">
+    <groups>
+    </groups>
+    <test name="Google Test" duration-ms="27984" started-at="2022-09-15T04:07:03Z" finished-at="2022-09-15T04:07:31Z">
+      <class name="com.A2_sample_2.google_test">
+        <test-method status="PASS" signature="googletest()[pri:0, instance:com.A2_sample_2.google_test@4e1d422d]" name="googletest" duration-ms="27979" started-at="2022-09-15T09:37:03Z" finished-at="2022-09-15T09:37:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googletest -->
+      </class> <!-- com.A2_sample_2.google_test -->
+    </test> <!-- Google Test -->
+  </suite> <!-- Google Suite -->
+  <suite name="allSuites" duration-ms="0" started-at="2022-09-15T04:07:31Z" finished-at="2022-09-15T04:07:31Z">
+    <groups>
+    </groups>
+  </suite> <!-- allSuites -->
+  <suite name="Bing Suite" duration-ms="30916" started-at="2022-09-15T04:06:30Z" finished-at="2022-09-15T04:07:01Z">
+    <groups>
+    </groups>
+    <test name="Bing Test" duration-ms="30916" started-at="2022-09-15T04:06:30Z" finished-at="2022-09-15T04:07:01Z">
+      <class name="com.A1_sample_test.Bing_test">
+        <test-method status="PASS" signature="validatebing()[pri:0, instance:com.A1_sample_test.Bing_test@1ed4004b]" name="validatebing" duration-ms="30874" started-at="2022-09-15T09:36:30Z" finished-at="2022-09-15T09:37:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatebing -->
+      </class> <!-- com.A1_sample_test.Bing_test -->
+    </test> <!-- Bing Test -->
+  </suite> <!-- Bing Suite -->
+</testng-results>

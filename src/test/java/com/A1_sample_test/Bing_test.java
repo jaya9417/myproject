@@ -1,5 +1,6 @@
 package com.A1_sample_test;
 
+
 import java.io.File;
 import java.io.IOException;
 
@@ -15,7 +16,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Bing_test {
 	
 	@Test
-	public void validatebing(File takescreenshotAs) throws IOException{
+	public void validatebing() throws IOException{
 		WebDriverManager.chromedriver().setup();
 		WebDriver wd = new ChromeDriver();
 		wd.manage().window().maximize();
@@ -26,3 +27,10 @@ public class Bing_test {
 		
 	}
 }
+//multiple suits in tesg ng....->
+//		copy from google  copy that tag and paste in sanity test file(i.e. create separately)
+//sanity test has renamed a 2 suite name
+//
+//		run sanity test ...to run all the suite files...
+//		inside sanity .xml file 
+//		we shoulkd rename that other xml files
